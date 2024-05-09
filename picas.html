@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego de Picas y Fijas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Juego de Picas y Fijas</h1>
+    <form action="./logic.php" method="post">
+        <label for="numero">Ingresa un número de cuatro dígitos:</label><br>
+        <input type="text" id="numero" name="numero" pattern="\d{4}" required><br>
+        <input class="btn_send" type="submit" value="Adivinar">
+    </form>
+</body>
+</html>
